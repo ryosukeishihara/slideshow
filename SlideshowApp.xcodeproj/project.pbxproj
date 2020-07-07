@@ -13,6 +13,10 @@
 		513CBC3D24AFCF750019BCA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513CBC3B24AFCF750019BCA0 /* Main.storyboard */; };
 		513CBC3F24AFCF780019BCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513CBC3E24AFCF780019BCA0 /* Assets.xcassets */; };
 		513CBC4224AFCF780019BCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513CBC4024AFCF780019BCA0 /* LaunchScreen.storyboard */; };
+		513CBC4A24AFCFA50019BCA0 /* スクリーンショット 2020 in Resources */ = {isa = PBXBuildFile; fileRef = 513CBC4924AFCFA40019BCA0 /* スクリーンショット 2020 */; };
+		513CBC4C24AFCFAA0019BCA0 /* IMG_0327 in Resources */ = {isa = PBXBuildFile; fileRef = 513CBC4B24AFCFAA0019BCA0 /* IMG_0327 */; };
+		513CBC4E24AFCFAD0019BCA0 /* IMG_0960 in Resources */ = {isa = PBXBuildFile; fileRef = 513CBC4D24AFCFAD0019BCA0 /* IMG_0960 */; };
+		513CBC5024AFCFCB0019BCA0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513CBC4F24AFCFCB0019BCA0 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		513CBC3E24AFCF780019BCA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		513CBC4124AFCF780019BCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		513CBC4324AFCF780019BCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513CBC4924AFCFA40019BCA0 /* スクリーンショット 2020 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "スクリーンショット 2020"; sourceTree = "<group>"; };
+		513CBC4B24AFCFAA0019BCA0 /* IMG_0327 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0327; sourceTree = "<group>"; };
+		513CBC4D24AFCFAD0019BCA0 /* IMG_0960 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0960; sourceTree = "<group>"; };
+		513CBC4F24AFCFCB0019BCA0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,9 @@
 			children = (
 				513CBC3424AFCF750019BCA0 /* SlideshowApp */,
 				513CBC3324AFCF750019BCA0 /* Products */,
+				513CBC4924AFCFA40019BCA0 /* スクリーンショット 2020 */,
+				513CBC4B24AFCFAA0019BCA0 /* IMG_0327 */,
+				513CBC4D24AFCFAD0019BCA0 /* IMG_0960 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +70,7 @@
 				513CBC3524AFCF750019BCA0 /* AppDelegate.swift */,
 				513CBC3724AFCF750019BCA0 /* SceneDelegate.swift */,
 				513CBC3924AFCF750019BCA0 /* ViewController.swift */,
+				513CBC4F24AFCFCB0019BCA0 /* ResultViewController.swift */,
 				513CBC3B24AFCF750019BCA0 /* Main.storyboard */,
 				513CBC3E24AFCF780019BCA0 /* Assets.xcassets */,
 				513CBC4024AFCF780019BCA0 /* LaunchScreen.storyboard */,
@@ -125,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513CBC4E24AFCFAD0019BCA0 /* IMG_0960 in Resources */,
 				513CBC4224AFCF780019BCA0 /* LaunchScreen.storyboard in Resources */,
+				513CBC4A24AFCFA50019BCA0 /* スクリーンショット 2020 in Resources */,
 				513CBC3F24AFCF780019BCA0 /* Assets.xcassets in Resources */,
+				513CBC4C24AFCFAA0019BCA0 /* IMG_0327 in Resources */,
 				513CBC3D24AFCF750019BCA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				513CBC3A24AFCF750019BCA0 /* ViewController.swift in Sources */,
 				513CBC3624AFCF750019BCA0 /* AppDelegate.swift in Sources */,
 				513CBC3824AFCF750019BCA0 /* SceneDelegate.swift in Sources */,
+				513CBC5024AFCFCB0019BCA0 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
