@@ -8,10 +8,15 @@ class ViewController: UIViewController {
     
     @IBAction func tapAction(_ sender: Any) {
         self.performSegue(withIdentifier: "toZoomIn", sender: nil)
+        if self.timer != nil {
+            // タイマーを停止
+            self.timer.invalidate()
+            // nil にして再び再生(nil の時にタイマー生成)
+            self.timer = nil
+        }
         
     }
-    @IBAction func unwind(_ segue: UIStoryboardSegue) {
-    }
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {}
     
     @IBAction func nextButtonTap(_ sender: Any) {
         if displayImageNo < imageNameArray.count - 1 {
